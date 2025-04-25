@@ -78,11 +78,10 @@ nav ul li {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    /* border: 1px solid red; */
     margin-top: -20px;
     margin-bottom: -20px;
 }
-   
+
 .section1-bg {
     width: 100%;
     height: 100%;
@@ -152,45 +151,46 @@ nav ul li {
     display: flex;
     justify-content: space-between;
 }
- 
+
 .card {
     background-color: #f5d47a;
     width: 23%;
     overflow: hidden;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
- 
+
 .card img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
- 
+
 .card-content {
     padding: 15px;
     text-align: center;
+    height: 180px;
+
 }
- 
+
 .card-title {
-    font-weight: bold;
-    margin-bottom: 5px;
-    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
- 
+
 .card-text {
     font-size: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
- 
+
 .btn-outline-dark {
     background-color: transparent;
     color: #000;
-    border: 1px solid #000;
     padding: 8px 15px;
-    border-radius: 20px;
     font-weight: bold;
     font-size: 12px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
  /* section 3 */
@@ -236,4 +236,46 @@ nav ul li {
     color: #ffffff;
     text-decoration: underline;
     font-weight: bold;
+}
+
+/* section movies Jorge */
+
+.coming-soon {
+    background-color: #d1cece;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.movie-slider {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.movie-item {
+    width: 18%;
+    overflow: hidden;
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.movie-info {
+    padding: 15px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.movie-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.movie-date {
+    color: #666;
+    font-size: 11px;
 }

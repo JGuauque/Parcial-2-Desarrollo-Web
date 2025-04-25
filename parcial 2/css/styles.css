@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Avenir, Arial, Helvetica, sans-serif;
-    border-color: red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -70,4 +70,229 @@ nav ul li {
     border: none;
     cursor: pointer;
 }
- 
+
+/* Primera section PARCIAL II */
+
+.section1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    border: 1px solid red;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+   
+.section1-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.section1-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 500px;
+    z-index: 2;
+}
+
+.section1-logo {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    max-width: 700px;
+    margin-bottom: 1rem;
+    margin-left: -50px;
+    margin-right: 50px;
+}
+
+.section1-description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section1-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+.btn.primary {
+    width: 200px;
+    background-color: #b93d39;
+    color: black;
+}
+
+.btn.secondary {
+    width: 200px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Tercera section PARCIAL II */
+
+.disney-section {
+    background-color: #004c59;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.disney-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: transparent;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card p {
+    margin: 15px 0;
+}
+
+.card a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Cuarta section PARCIAL II */
+
+.disney-parks {
+    padding: 40px 20px;
+    background-color: #d7d4d4;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.disney-parks h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.parks-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.park-card {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.park-image {
+    position: relative;
+}
+
+.park-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.park-info {
+    padding: 20px;
+}
+
+.park-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.park-info a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+/* Por ultimo el footer de la pagina */
+
+.disney-footer {
+    background-color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #222;
+    /* border: 1px solid red; */
+}
+
+.footer-logo img {
+    width: 80px;
+    margin: 0 auto 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.footer-copy {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #444;
+}
+  

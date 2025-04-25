@@ -78,7 +78,7 @@ nav ul li {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: -20px;
     margin-bottom: -20px;
 }
@@ -144,155 +144,54 @@ nav ul li {
     color: white;
     border: 2px solid white;
 }
+    /* section 2 */
 
-/* Tercera section PARCIAL II */
-
-.disney-section {
-    background-color: #004c59;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-    /* border: 1px solid red; */
-}
-
-.disney-section h2 {
-    font-size: 2em;
-    margin-bottom: 30px;
-}
-
-.cards-container {
+.cards-section {
+    background-color: #7570ce;
+    padding: 20px 10%;
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
+ 
 .card {
-    background-color: transparent;
-    max-width: 300px;
-    text-align: center;
+    background-color: #f5d47a;
+    width: 23%;
+    overflow: hidden;
+    border-radius: 10px;
 }
-
+ 
 .card img {
     width: 100%;
-    border-radius: 8px;
-}
-
-.card p {
-    margin: 15px 0;
-}
-
-.card a {
-    color: #ffffff;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-/* Cuarta section PARCIAL II */
-
-.disney-parks {
-    padding: 40px 20px;
-    background-color: #d7d4d4;
-    text-align: center;
-    /* border: 1px solid red; */
-}
-
-.disney-parks h2 {
-    font-size: 2em;
-    margin-bottom: 30px;
-    color: #222;
-}
-
-.parks-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    
-}
-
-.park-card {
-    background-color: white;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.park-image {
-    position: relative;
-}
-
-.park-image img {
-    width: 100%;
     height: auto;
-    display: block;
+    object-fit: cover;
 }
-
-.overlay-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 1rem;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
+ 
+.card-content {
+    padding: 15px;
     text-align: center;
 }
-
-.park-info {
-    padding: 20px;
-}
-
-.park-info p {
-    font-size: 1rem;
-    margin: 10px 0;
-    color: #333;
-}
-
-.park-info a {
-    color: black;
+ 
+.card-title {
     font-weight: bold;
-    text-decoration: underline;
-    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
-
-/* Por ultimo el footer de la pagina */
-
-.disney-footer {
-    background-color: #fff;
-    padding: 30px 20px;
-    text-align: center;
-    font-size: 0.85rem;
-    color: #222;
-    /* border: 1px solid red; */
-}
-
-.footer-logo img {
-    width: 80px;
-    margin: 0 auto 20px;
-}
-
-.footer-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+ 
+.card-text {
+    font-size: 12px;
     margin-bottom: 15px;
 }
-
-.footer-links a {
-    text-decoration: none;
-    color: #222;
+ 
+.btn-outline-dark {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    padding: 8px 15px;
+    border-radius: 20px;
     font-weight: bold;
-    white-space: nowrap;
+    font-size: 12px;
+    cursor: pointer;
 }
 
-.footer-copy {
-    margin-top: 10px;
-    font-size: 0.8rem;
-    color: #444;
-}
-  
+ /* section 3 */
+

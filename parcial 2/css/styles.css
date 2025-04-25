@@ -195,3 +195,45 @@ nav ul li {
 
  /* section 3 */
 
+ /* Tercera section PARCIAL II */
+
+.disney-section {
+    background-color: #004c59;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.disney-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-movie {
+    background-color: transparent;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card-movie img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-movie p {
+    margin: 15px 0;
+}
+
+.card-movie a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -350,3 +350,62 @@ nav ul li {
     text-decoration: underline;
     font-size: 0.9rem;
 }
+
+/* sexta seccion jorge creditos  */
+
+/* Credit Card Section */
+.credit-section {
+    background-color: #e8f6f9;
+    padding: 40px 10%;
+    height: 800px;
+}
+
+.credit-container {
+    position: relative;
+    width: 100%;
+    height: 730px;
+    overflow: hidden;
+}
+
+.cards-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.credit-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.credit-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #17437c;
+    font-weight: bold;
+}
+
+.credit-text {
+    color: #17437c;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.btn-purple {
+    background-color: #8d4bac;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 15px;
+}

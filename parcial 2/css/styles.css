@@ -241,7 +241,7 @@ nav ul li {
 /* section movies Jorge */
 
 .coming-soon {
-    background-color: #d1cece;
+    background-color: #d7d4d4;
     padding: 20px 10%;
     text-align: center;
 }
@@ -286,7 +286,6 @@ nav ul li {
     padding: 40px 20px;
     background-color: #d7d4d4;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 .disney-parks h2 {
@@ -353,10 +352,8 @@ nav ul li {
 
 /* sexta seccion jorge creditos  */
 
-/* Credit Card Section */
 .credit-section {
     background-color: #e8f6f9;
-    padding: 40px 10%;
     height: 800px;
 }
 
@@ -383,19 +380,27 @@ nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .credit-title {
     font-size: 24px;
-    margin-bottom: 20px;
+    padding: 10px 20px;
     color: #17437c;
-    font-weight: bold;
+}
+
+.credit-subTitle {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #274f83;
 }
 
 .credit-text {
     color: #17437c;
     margin-bottom: 15px;
     font-size: 14px;
+    text-align: center;
 }
 
 .btn-purple {
@@ -406,6 +411,44 @@ nav ul li {
     border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
-    width: fit-content;
+    width: 280px;
     margin-top: 15px;
+    text-decoration: none;
+}
+
+ /* Septima seccion Hans  footer */
+
+  
+.disney-footer {
+    background-color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #222;
+}
+ 
+.footer-logo img {
+    width: 80px;
+    margin: 0 auto 20px;
+}
+ 
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+ 
+.footer-links a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    white-space: nowrap;
+}
+ 
+.footer-copy {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #444;
 }
